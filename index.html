@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game - Two Players</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors Game</h1>
+        <div class="score-board">
+            <div class="score">
+                <h3 id="play1">Player 1</h3>
+                <span id="player1-score">0</span>
+            </div>
+            <div class="score">
+                <h3 id="play2">Player 2</h3>
+                <span id="player2-score">0</span>
+            </div>
+        </div>
+        <div class="choices">
+            <button class="choice" id="rock">Rock</button>
+            <button class="choice" id="paper">Paper</button>
+            <button class="choice" id="scissors">Scissors</button>
+        </div>
+        <div class="result">
+            <p id="game-result"></p>
+        </div>
+        <div class="animation">
+            <p id="animated-result"></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
